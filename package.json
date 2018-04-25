@@ -1,0 +1,33 @@
+{
+  "name": "mean-template",
+  "version": "1.0.0",
+  "description": "A MEAN Stack (Mongo, Express, Angular, Node) simple application template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agonxgashi/MEAN-template.git"
+  },
+  "keywords": [
+    "mean",
+    "template",
+    "angular",
+    "node",
+    "express",
+    "simple",
+    "github"
+  ],
+  "author": "Agon <agonxgashi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agonxgashi/MEAN-template/issues"
+  },
+  "homepage": "https://github.com/agonxgashi/MEAN-template#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.16",
+    "path": "^0.12.7"
+  }
+}
