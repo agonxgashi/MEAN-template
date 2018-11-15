@@ -3,53 +3,52 @@
 // • Mongoose is used to make communication with MongoDB easy and simple
 // -----------------------------------------------------------------------------
 
-const express    = require('express');
-const path       = require('path');
-const mongoose   = require('mongoose');
+const express = require('express')
+const path = require('path')
+const mongoose = require('mongoose')
 
 // • Creating Express instance. Later we will use this to declare routes
-const app = express();
+const app = express()
 
 // • Connect to MongoDB database. Please be sure you have started MongoDB
 // services before running application and replace `example-app` with your
 // database's name.
-mongoose.connect('mongodb://localhost/example-app');
+mongoose.connect('mongodb://localhost/example-app')
 
-// • `client/dist` is default file output of ng build command. You can change 
-// that on `angular-cli.json` config file but don't forget to change below line 
-// too or server will not be able to locate our front-end part of application. 
-app.use(express.static(path.join(__dirname, 'client/dist')));
+// • `client/dist` is default file output of ng build command. You can change
+// that on `angular-cli.json` config file but don't forget to change below line
+// too or server will not be able to locate our front-end part of application.
+app.use(express.static(path.join(__dirname, 'client/dist')))
 
 // • This is a special method called `middleware`. Every request will be
 // executed on each request. If you want to exclude a specific route to make it
 // not enter on this middleware, simply declare that route before this function
-app.use('/', function(req, res, next){
-    // • Implement your logic here.
-    console.log('Time:', Date.now());
-    next();
-});
+app.use('/', function (req, res, next) {
+  // • Implement your logic here.
+  console.log('Time:', Date.now())
+  next()
+})
 
-// • We call use() on the Express application to add the Router to handle path, 
+// • We call use() on the Express application to add the Router to handle path,
 // specifying an URL path on first parameter '/api/example'.
-app.use('/api/example', require('./server/routes/example-route'));
+app.use('/api/example', require('./server/routes/example-route'))
 
-// • Every other route that starts with `api/` but not declared above will 
+// • Every other route that starts with `api/` but not declared above will
 // return `not-found` status. Apply your `not-found` format here.
 app.get('/api/*', (req, res) => {
-    res.send({
-        message: "Endpoint not found", 
-        type   : "error"
-    });
-});
+  res.send({
+    message: 'Endpoint not found',
+    type: 'error'
+  })
+})
 
 // • Every other route not declared above will redirect us to Angular view
 // called `index.html`. Be sure you have builded and created output files from
 // angular app.
 app.get('*', (req, res) => {
-    console.log(req.url);
-    res.sendFile(path.join(__dirname, 'client/dist/index.html'));
-});
-
+  console.log(req.url)
+  res.sendFile(path.join(__dirname, 'client/dist/index.html'))
+})
 
 // • Start listening on port 3000 for requests.
-app.listen(3000, () => console.log('Application started successfully!'));
+app.listen(3000, () => console.log('Application started successfully!'))

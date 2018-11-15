@@ -3,17 +3,17 @@
 // • Mongoose is used to make communication with MongoDB easy and simple
 // -----------------------------------------------------------------------------
 
-const mongoose   = require('mongoose');
-const Schema   = mongoose.Schema;
+const mongoose = require('mongoose')
+const Schema = mongoose.Schema
 
 // • Create Schema. This will be used later to define model fields (db columns)
 const ExampleSchema = new Schema({
-    title  : String,
-    content: String
-});
+  title: String,
+  content: String
+})
 
 // • Created Model below will help us to work with MongoDB easily.
-var ExampleModel = mongoose.model('Example', ExampleSchema);
+var ExampleModel = mongoose.model('Example', ExampleSchema)
 
 // • Export Model
-module.exports = ExampleModel;
+module.exports = ExampleModel
