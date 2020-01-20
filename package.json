@@ -1,6 +1,6 @@
 {
   "name": "mean-template",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A MEAN Stack (Mongo, Express, Angular, Node) simple application template",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,27 @@
   "dependencies": {
     "express": "^4.16.3",
     "mongoose": "^5.0.16",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "@angular/animations": "~8.2.7",
+    "@angular/common": "~8.2.7",
+    "@angular/compiler": "~8.2.7",
+    "@angular/core": "~8.2.7",
+    "@angular/forms": "~8.2.7",
+    "@angular/platform-browser": "~8.2.7",
+    "@angular/platform-browser-dynamic": "~8.2.7",
+    "@angular/router": "~8.2.7",
+    "rxjs": "~6.4.0",
+    "tslib": "^1.10.0",
+    "zone.js": "~0.9.1"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.803.5",
+    "@angular/cli": "~8.3.5",
+    "@angular/compiler-cli": "~8.2.7",
+    "@angular/language-service": "~8.2.7",
+    "@types/node": "~8.9.4",
+    "ts-node": "~7.0.0",
+    "tslint": "~5.15.0",
+    "typescript": "~3.5.3"
   }
 }

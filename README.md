@@ -20,7 +20,7 @@ directory paths.*
 
 ### Folder structure
 
-+ **/client**: *Angular app created using ```angular/cli```.*
++ **/src**: *Angular app created using ```angular/cli```.*
 + **/repo**: *Contains mongoose Schemas*
 + **/server**: *Files to be used on server-side*
     * **/routes**: *Declared routes to be imported on ```index.js```*
@@ -39,9 +39,9 @@ directory paths.*
 
 + Download this project on your computer
 + Be sure you have started MongoDB service before running the application
-+ Navigate on project folder and then to /client subfolder
++ Navigate on project folder 
 + Run ```ng build``` on here to generate Angular necessary files. Output files are by default created on ```/dist``` subfolder
-+ Return to project base folder and run ```node index.js``` This is the last step and if everything goes right, server will start listening for requests
++ Now run ```node index.js``` This is the last step and if everything goes right, server will start listening for requests
 + You can open your browser and navigate to localhost:3000 to see if application works
 
 ___  
