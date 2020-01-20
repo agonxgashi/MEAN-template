@@ -1,3 +1,9 @@
+---
+title: MEAN Stack template application
+Author: Agon Gashi (agonxgashi)
+Tags: MEAN Stack application template
+---
+
 # MEAN-template
 **A simple (MongoDB, Express, Angular, Node) application template that works.**  
 
