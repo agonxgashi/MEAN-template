@@ -4,6 +4,7 @@
   "description": "A MEAN Stack (Mongo, Express, Angular, Node) simple application template",
   "main": "index.js",
   "scripts": {
+    "start": "ng build && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,26 +30,26 @@
     "express": "^4.16.3",
     "mongoose": "^5.0.16",
     "path": "^0.12.7",
-    "@angular/animations": "~8.2.7",
-    "@angular/common": "~8.2.7",
-    "@angular/compiler": "~8.2.7",
-    "@angular/core": "~8.2.7",
-    "@angular/forms": "~8.2.7",
-    "@angular/platform-browser": "~8.2.7",
-    "@angular/platform-browser-dynamic": "~8.2.7",
-    "@angular/router": "~8.2.7",
-    "rxjs": "~6.4.0",
+    "@angular/animations": "~9.0.2",
+    "@angular/common": "~9.0.2",
+    "@angular/compiler": "~9.0.2",
+    "@angular/core": "~9.0.2",
+    "@angular/forms": "~9.0.2",
+    "@angular/platform-browser": "~9.0.2",
+    "@angular/platform-browser-dynamic": "~9.0.2",
+    "@angular/router": "~9.0.2",
+    "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
-    "zone.js": "~0.9.1"
+    "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.803.5",
-    "@angular/cli": "~8.3.5",
-    "@angular/compiler-cli": "~8.2.7",
-    "@angular/language-service": "~8.2.7",
-    "@types/node": "~8.9.4",
+    "@angular-devkit/build-angular": "~0.900.3",
+    "@angular/cli": "~9.0.3",
+    "@angular/compiler-cli": "~9.0.2",
+    "@angular/language-service": "~9.0.2",
+    "@types/node": "^12.11.1",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.5.3"
+    "typescript": "~3.7.5"
   }
 }
