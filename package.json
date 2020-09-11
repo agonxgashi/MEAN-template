@@ -28,7 +28,7 @@
   "homepage": "https://github.com/agonxgashi/MEAN-template#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "mongoose": "^5.0.16",
+    "mongoose": "^5.7.5",
     "path": "^0.12.7",
     "@angular/animations": "~9.0.2",
     "@angular/common": "~9.0.2",
