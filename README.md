@@ -44,7 +44,7 @@ directory paths.*
 ### Usage
 
 + Download this project on your computer
-+ Be sure you have started [MongoDB](https://www.mongodb.com/try/download/community) service before running the application
++ Be sure you have started MongoDB service before running the application
 + Navigate on project folder
 + Run ```ng build``` on here to generate Angular necessary files. Output files are by default created on ```/dist``` subfolder
 + Now run ```node index.js``` This is the last step and if everything goes right, server will start listening for requests
@@ -53,7 +53,3 @@ directory paths.*
 ___
 
 Feel free to fork this repo or contact me on [Telegram](http://t.me/agonxgashi)
-
-
-
-
