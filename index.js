@@ -11,13 +11,13 @@ const mongoose = require('mongoose')
 const app = express()
 
 // • Connect to MongoDB database. Please be sure you have started MongoDB
-// services before running application and replace `example-app` with your
+// services before running application and replace `MEAN-Template-app` with your
 // database's name.
-mongoose.connect('mongodb://localhost/example-app', (err) => {
+mongoose.connect('mongodb://localhost/MEAN-Template-app', (err) => {
   if (err) {
     // We want to log if app can not connect to database
     console.log(err)
-  } else { // If there is no error during db connection, continue proccess 
+  } else { // If there is no error during db connection, continue proccess
 
     // • `/dist` is default file output of ng build command. You can change
     // that on `angular-cli.json` config file but don't forget to change below line

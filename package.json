@@ -27,9 +27,6 @@
   },
   "homepage": "https://github.com/agonxgashi/MEAN-template#readme",
   "dependencies": {
-    "express": "^4.16.3",
-    "mongoose": "^5.0.16",
-    "path": "^0.12.7",
     "@angular/animations": "~9.0.2",
     "@angular/common": "~9.0.2",
     "@angular/compiler": "~9.0.2",
@@ -38,12 +35,15 @@
     "@angular/platform-browser": "~9.0.2",
     "@angular/platform-browser-dynamic": "~9.0.2",
     "@angular/router": "~9.0.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.11.15",
+    "path": "^0.12.7",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.900.3",
+    "@angular-devkit/build-angular": "^0.1101.2",
     "@angular/cli": "~9.0.3",
     "@angular/compiler-cli": "~9.0.2",
     "@angular/language-service": "~9.0.2",
