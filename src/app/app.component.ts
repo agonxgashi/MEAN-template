@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  note = 'Client app is running!';
+  note = '🎉 Client app is running! 🎉';
+
+  public get currentDate() : number {
+    return new Date().getFullYear();
+  }
+
 }

@@ -5,22 +5,22 @@ Tags: MEAN Stack application template
 ---
 
 # MEAN-template
-**A simple (MongoDB, Express, Angular, Node) application template that works.**  
+**A simple (MongoDB, Express, Angular, Node) application template that works.**
 
-This simple template is meant to be used as a start point of your next super-big 
-MEAN Aplication. It is very easy to run and comments should make understandable 
+This simple template is meant to be used as a start point of your next super-big
+MEAN Aplication. It is very easy to run and comments should make understandable
 every line of code I've wrote (if not, feel free to propose changes 😉). It uses
 a minimum number of npm packages that are really necessary to make application
 work. Used packages are described below.
 
 ### Downloaded from npm
 
-+ **express**: *Express is a minimal and flexible Node.js web application 
++ **express**: *Express is a minimal and flexible Node.js web application
 framework that provides a robust set of features for web and mobile applications.*
-+ **mongoose**: *Mongoose provides a straight-forward, schema-based solution to 
-model your application data. It includes built-in type casting, validation, 
++ **mongoose**: *Mongoose provides a straight-forward, schema-based solution to
+model your application data. It includes built-in type casting, validation,
 query building, business logic hooks and more, out of the box.*
-+ **path**: *The path module provides utilities for working with file and 
++ **path**: *The path module provides utilities for working with file and
 directory paths.*
 
 
@@ -45,15 +45,11 @@ directory paths.*
 
 + Download this project on your computer
 + Be sure you have started MongoDB service before running the application
-+ Navigate on project folder 
++ Navigate on project folder
 + Run ```ng build``` on here to generate Angular necessary files. Output files are by default created on ```/dist``` subfolder
 + Now run ```node index.js``` This is the last step and if everything goes right, server will start listening for requests
 + You can open your browser and navigate to localhost:3000 to see if application works
 
-___  
+___
 
 Feel free to fork this repo or contact me on [Telegram](http://t.me/agonxgashi)
-
-
-
-
