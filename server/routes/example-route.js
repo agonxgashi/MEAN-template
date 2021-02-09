@@ -13,7 +13,7 @@ const express = require('express')
 const router = express.Router()
 
 // • Declaring GET method
-router.get('/', function (req, res) {
+router.get('/list', function (req, res) {
   // • Use mongoose to get all `examples` in our database
   // • How we got this find() method you'll ask? Well, that comes from our
   // declared mongoose model.
