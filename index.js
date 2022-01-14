@@ -14,6 +14,7 @@ const app = express()
 // services before running application and replace `MEAN-Template-app` with your
 // database's name.
 mongoose.connect('mongodb://localhost/MEAN-Template-app', (err) => {
+  console.log('Connected to the database!')
   if (err) {
     // We want to log if app can not connect to database
     console.log(err)
