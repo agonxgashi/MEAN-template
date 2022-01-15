@@ -7,11 +7,7 @@ Tags: MEAN Stack application template
 # MEAN-template
 **A simple (MongoDB, Express, Angular, Node) application template that works.**
 
-This simple template is meant to be used as a start point of your next super-big
-MEAN Aplication. It is very easy to run and comments should make understandable
-every line of code I've wrote (if not, feel free to propose changes 😉). It uses
-a minimum number of npm packages that are really necessary to make application
-work. Used packages are described below.
+This simple template is meant to be used as a starting point for your next super-big MEAN Aplication. It is very easy to run and the comments should make every line of code I've written understandable (if not, feel free to propose changes 😉). It uses a minimum number of npm packages that are crucial to make the application work. Used packages are described below.
 
 ### Downloaded from npm
 
@@ -43,8 +39,8 @@ directory paths.*
 + Be sure you have started MongoDB service before running the application
 + Navigate on project folder
 + Run ```ng build``` to generate Angular necessary files. Output files are by default created on ```/dist``` subfolder
-+ Now run ```node index.js``` This is the last step and if everything goes right, server will start listening for requests
-+ You can open your browser and navigate to localhost:3000 to see if application works
++ Now run ```node index.js``` This is the last step and if everything goes right, the server will start listening for requests
++ You can open your browser and navigate to localhost:3000 to see if the application works
 
 ___
 
