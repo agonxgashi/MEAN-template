@@ -36,7 +36,7 @@
     "@angular/platform-browser-dynamic": "~13.1.2",
     "@angular/router": "~13.1.2",
     "express": "^4.17.2",
-    "mongoose": "^6.1.6",
+    "mongoose": "^6.4.6",
     "path": "^0.12.7",
     "rxjs": "~6.5.4",
     "tslib": "^2.0.0",
