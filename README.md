@@ -20,7 +20,6 @@ Tags: MEAN Stack application template
 
     This simple template is meant to be used as a starting point for your next super-big MEAN Aplication. It is very easy to run and the comments should make every line of code I've written understandable (if not, feel free to propose changes 😉). It uses a minimum number of npm packages that are crucial to make the application work. Used packages are described below.
 </details>
-<br>
 
 ### Downloaded from npm
 
