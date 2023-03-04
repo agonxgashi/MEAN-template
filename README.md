@@ -7,7 +7,20 @@ Tags: MEAN Stack application template
 # MEAN-template
 **A simple (MongoDB, Express, Angular, Node) application template that works.**
 
-This simple template is meant to be used as a starting point for your next super-big MEAN Aplication. It is very easy to run and the comments should make every line of code I've written understandable (if not, feel free to propose changes 😉). It uses a minimum number of npm packages that are crucial to make the application work. Used packages are described below.
+<details>
+  <summary>NOTICE: This MEAN Stack template is for learning purposes only and should not be used in production environments.</summary>
+
+    This template is intended to help you get started with the MEAN (MongoDB, Express.js, Angular, and Node.js) stack and learn the basics of building web applications using these technologies. It includes some basic functionality and a simple architecture to help you understand how these technologies work together.
+
+    However, please note that this template is not intended for use in production environments. It has not been thoroughly tested and does not include many of the security features and best practices that are necessary for a production application. Using this template in a production environment could result in serious security vulnerabilities and other issues.
+
+    If you're looking to build a production-ready application using the MEAN stack, we recommend that you consult with experienced developers and follow established best practices and security guidelines.
+
+    In short, have fun exploring the MEAN stack with this template, but use it for learning and experimentation only, not in production environments.
+
+    This simple template is meant to be used as a starting point for your next super-big MEAN Aplication. It is very easy to run and the comments should make every line of code I've written understandable (if not, feel free to propose changes 😉). It uses a minimum number of npm packages that are crucial to make the application work. Used packages are described below.
+</details>
+<br>
 
 ### Downloaded from npm
 
