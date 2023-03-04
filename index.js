@@ -10,15 +10,22 @@ const mongoose = require('mongoose')
 // • Creating Express instance. Later we will use this to declare routes
 const app = express()
 
+// • Declare variables
+const MONGO_DB = 'mongodb://127.0.0.1/MEAN-Template-app'
+const PORT = 3000
+
 // • Connect to MongoDB database. Please be sure you have started MongoDB
 // services before running application and replace `MEAN-Template-app` with your
 // database's name.
-mongoose.connect('mongodb://localhost/MEAN-Template-app', (err) => {
-  console.log('Connected to the database!')
+mongoose.connect(MONGO_DB, (err) => {
+
   if (err) {
     // We want to log if app can not connect to database
+    console.log('Could not connect to mongodb')
     console.log(err)
-  } else { // If there is no error during db connection, continue proccess
+  } else {
+    // If there is no error during db connection, continue proccess
+    console.log('Connected to the database!')
 
     // • `/dist` is default file output of ng build command. You can change
     // that on `angular-cli.json` config file but don't forget to change below line
@@ -55,8 +62,7 @@ mongoose.connect('mongodb://localhost/MEAN-Template-app', (err) => {
       res.sendFile(path.join(__dirname, 'dist/index.html'))
     })
 
-    // • Start listening on port 3000 for requests.
-    const PORT = 3000
+    // • Start listening on port {{PORT}} for requests.
     app.listen(PORT, () => console.log(`Application started successfully on port: ${PORT}!`))
 
   }
